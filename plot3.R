@@ -1,5 +1,4 @@
-#load data
-setwd("C:/dev/coursera/exploratory/week1/project1")
+#load data from current directory
 classes <- c("character","character", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric")
 file <- read.table("./household_power_consumption.txt", header = TRUE, sep = ";", na.strings = "?", colClasses = classes)
 
